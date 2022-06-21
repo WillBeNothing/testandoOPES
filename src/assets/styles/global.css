@@ -1,0 +1,59 @@
+:root {
+  --color-background: #F0F0F7;
+  --color-primary-lighter: #9871F5;
+  --color-primary-light: #323035;
+  --color-primary: #8257E5;
+  --color-primary-dark: #774DD6;
+  --color-primary-darker: #6842C2;
+  --color-secundary: #04D361;
+  --color-secundary-dark: #04BF58;
+  --color-title-in-primary: #FFFFFF;
+  --color-text-in-primary: #fcfcfc;
+  --color-text-title: #ffffff;
+  --color-text-complement: #9C98A6;
+  --color-text-base: #FFFF;
+  --color-line-in-white: #696969;
+  --color-input-background: #F8F8FC;
+  --color-button-text: #FFFFFF;
+  --color-box-base: #FFFFFF;
+  --color-box-footer: #FAFAFC;
+
+  font-size: 60%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body, #root{
+    height:100vh;
+  }
+  
+  body {
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(29,29,29,1) 15%, rgba(55,55,55,1) 30%, rgba(74,74,74,1) 50%, rgba(55,55,55,1) 70%, rgba(29,29,29,1) 85%, rgba(0,0,0,1) 100%);
+
+  }
+  #root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  body, input, button, textarea {
+    font: 500 1.6rem Poppins;
+    color: var(--color-text-base);
+  }
+   
+  .container{
+    width: 90vw;
+    max-width: 700px;
+  }
+  
+  @media (min-width: 700px) {
+    :root{
+      font-size: 65.5%;
+    }
+  }
