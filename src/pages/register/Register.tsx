@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import ImageContainer from '../../componets/image-test/ImageContainer';
 
 // import { Container } from './styles';
 
