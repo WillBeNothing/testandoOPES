@@ -29,9 +29,10 @@
     
 }
 
-.header strong {
+.header p {
     margin-top: 0;
     font-size: 4rem;
+    font-weight: bold;
 }
 
 .header {

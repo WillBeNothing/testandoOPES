@@ -10,7 +10,7 @@ export default function Login() {
     return(
         <div className="container" id="login">
             <header className="header">
-                <strong>Seja Bem-vindo, agente.</strong>
+                <p>Seja Bem-vindo, agente.</p>
             </header>
            <div className="login-area" id="login-area">
             <form>
