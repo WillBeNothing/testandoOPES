@@ -13,9 +13,10 @@
 }
 
 .buttonContainer button {
-    background: #272727;
+    background: var(--color-border);
+    opacity: 0.5;
     border: dashed 2px;
-    border-color: #808080;
+    border-color: white;
     border-radius: 5px;
 
     width: 25rem;

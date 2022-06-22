@@ -3,7 +3,6 @@ import './style.css'
 
 interface InputLabelProps extends InputHTMLAttributes<HTMLInputElement>{
     label: string
-
 }
 
 const InputLabel: React.FC<InputLabelProps> = ({label, children,...rest}) => {

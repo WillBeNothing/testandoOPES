@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useState} from 'react';
+import ImageContainer from '../../componets/image-test/ImageContainer';
 
 // import { Container } from './styles';
 
@@ -7,7 +8,7 @@ import './styles.css'
 const Register: React.FC = () => {
   return (
     <div className='container' id='new-character-page'>
-        <p>EM BREVE</p>
+        <p>EM BREVE</p> 
     </div>
   );
 }

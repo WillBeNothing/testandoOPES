@@ -4,7 +4,6 @@ import {useNavigate} from 'react-router-dom'
 
 import './styles.css'
 
-
 // import { Container } from './styles';
 
 const Home: React.FC = () => {
@@ -21,7 +20,8 @@ const createNewCharacter = () => {
     <div className='container' id='home-page'>
         {
             exitsCharacter ? 
-            (<div></div>) :
+            (<div>
+            </div>) :
             (<div className='buttonContainer'>
                 <button className='add' onClick={createNewCharacter}>
                     <strong>+</strong>
